@@ -1,0 +1,140 @@
+body{
+    font:15px / 1.5Arial,Helvetica,sars-serif;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+/* GLOBAL */
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    background: #195a79;
+    border: none;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 38px;
+}
+
+/* header */
+header{
+    background-color: black;
+    color: #ffffff;
+    padding: 30px;
+    min-height: 40px;
+}
+
+header a{
+    color:#195a79 ;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left ;
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+
+header .highlight,header .current a{
+    color: #195a79;
+    font-weight: bold;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding{
+    margin: 0;
+}
+ header nav{
+    float: none;
+    margin-top: 10px;
+ }
+
+ /* Boxes */
+ #boxes{
+    padding-top: 20PX;
+    padding-left: 30px;
+    min-height: 600px;
+    text-align: center;
+    background-color: rgb(53, 48, 48);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    }
+ aside #logo{
+    display: inline-flex;
+    float:left;
+    display: inline-flex;
+ }
+
+ #boxes .box{
+
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+ }
+    
+
+ /* showcase */
+ #showcase{
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color:#ffffff ;
+    background-color: rgb(53, 48, 48);
+    padding-top: 30px;
+    font-size: larger;
+    padding-left: 30px;
+ }
+
+ /* about */
+ #about{
+    min-height: 400px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: larger;
+
+ }
+
+ /* contacts */
+ #contact{
+    min-height: 300px;
+    background-color: black;
+    background-position: center;
+    text-align: center;
+    background-size: center;
+    color: #195a79;
+    font-size: larger;
+    padding-left: 30px;
+    padding-top: 30px;
+ }
+
+ /* aside */
+ aside#sidebar{
+    float:left;
+    padding-left: 30px;
+    width: 30%;
+ }
+ 
